@@ -332,11 +332,55 @@
             codau: "Bride",
             chure: "Broom",
         },
-        vi: {
+        vi_b: {
+            greeting_1: "Thân mời",
+            greeting_2: "Tới dự bữa tiệc thân mật mừng lễ thành hôn của chúng mình.",
+            greeting_3: "Sự hiện diện của bạn",
+            greeting_4: "là niềm vinh hạnh cho gia đình mình",
+            greeting_5: "Rất hân hạnh được đón tiếp!",
+            nhatrai_1: "Nhà Trai",
+            nhatrai_2: "11:00 Ngày 12/01/2024",
+            nhatrai_3: "Tại",
+            nhatrai_4: "Tư Gia",
+            nhatrai_5: "Xóm Cây Kèn, Thôn 1, Kiền Bái, Thuỷ Nguyên, Hải Phòng",
+            nhatrai_6: "",
+            nhagai_1: "Nhà Gái",
+            nhagai_2: "11:00 Ngày 07/01/2024",
+            nhagai_22: "(11:00 đón khách, 11:30 nhập tiệc)",
+            nhagai_3: "Tại trung tâm tiệc cưới",
+            nhagai_4: "JADE PALACE",
+            nhagai_5: "79 Nguyễn Sinh Cung, Vỹ Dạ, Thành Phố Huế",
+            nhagai_6: "",
+            codau: "Cô Dâu",
+            chure: "Chú Rể",
+        },
+        vi_e: {
+            greeting_1: "Trân mời",
+            greeting_2: "Tới dự bữa tiệc thân mật mừng lễ thành hôn của anh chị.",
+            greeting_3: "Sự hiện diện của em",
+            greeting_4: "là niềm vinh hạnh cho gia đình anh chị.",
+            greeting_5: "Rất hân hạnh được đón tiếp!",
+            nhatrai_1: "Nhà Trai",
+            nhatrai_2: "11:00 Ngày 12/01/2024",
+            nhatrai_3: "Tại",
+            nhatrai_4: "Tư Gia",
+            nhatrai_5: "Xóm Cây Kèn, Thôn 1, Kiền Bái, Thuỷ Nguyên, Hải Phòng",
+            nhatrai_6: "",
+            nhagai_1: "Nhà Gái",
+            nhagai_2: "11:00 Ngày 07/01/2024",
+            nhagai_22: "(11:00 đón khách, 11:30 nhập tiệc)",
+            nhagai_3: "Tại trung tâm tiệc cưới",
+            nhagai_4: "JADE PALACE",
+            nhagai_5: "79 Nguyễn Sinh Cung, Vỹ Dạ, Thành Phố Huế",
+            nhagai_6: "",
+            codau: "Cô Dâu",
+            chure: "Chú Rể",
+        },
+        vi_ac: {
             greeting_1: "Trân trọng kính mời",
-            greeting_2: "Tới dự bữa tiệc thân mật mừng lễ thành hôn của chúng tôi.",
-            greeting_3: "Sự hiện diện của quý vị",
-            greeting_4: "là niềm vinh hạnh cho gia đình chúng tôi",
+            greeting_2: "Tới dự bữa tiệc thân mật mừng lễ thành hôn của chúng em.",
+            greeting_3: "Sự hiện diện của anh/chị",
+            greeting_4: "là niềm vinh hạnh cho gia đình chúng em.",
             greeting_5: "Rất hân hạnh được đón tiếp!",
             nhatrai_1: "Nhà Trai",
             nhatrai_2: "11:00 Ngày 12/01/2024",
@@ -363,7 +407,7 @@
         // Create a URLSearchParams object from the current URL
         const urlParams = new URLSearchParams(window.location.search);
 
-        const language = urlParams.get('lang') || 'vi'; // Mặc định là tiếng Việt
+        const language = urlParams.get('lang') || 'vi_b'; // Mặc định là tiếng Việt
 
         // Thay đổi ngôn ngữ của các phần tử
         document.querySelectorAll('[data-lang-key]').forEach(elem => {
